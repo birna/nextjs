@@ -1,0 +1,38 @@
+.botoes {
+    background-color: #3498db; /* Amarelo=#f1c40f Verde=#28a745 #Vermelho=#e74c3c*/
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adiciona profundidade */
+    transition: all 0.3s ease; /* Efeitos suaves */
+}
+
+.botoes:hover {
+    background-color: #2179b8; /* Cor mais escura ao passar o mouse */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Aumenta a profundidade */
+    transform: translateY(-2px); /* Efeito sutil de elevação */
+}
+
+.botoes:active {
+    background-color: #1a5e91; /* Cor mais escura ao clicar */
+    transform: translateY(0); /* Remove elevação */
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2); /* Reduz profundidade */
+}
+
+.input {
+    background-color: white;
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}

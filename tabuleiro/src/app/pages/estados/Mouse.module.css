@@ -1,0 +1,10 @@
+.mouse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    font-size: 32px;
+    font-weight: bold;
+}

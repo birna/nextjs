@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tabuleiro",
-  description: "Primeiro tabuleiro em nextjs",
+  title: "Exercicios",
+  description: "Primeiro passos em nextjs",
 };
 
 export default function RootLayout({
