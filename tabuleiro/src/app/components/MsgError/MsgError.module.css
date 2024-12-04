@@ -1,0 +1,20 @@
+.msgerror {
+    color: #fff; /* Cor do texto em branco para melhorar a legibilidade */
+    background-color: #e74c3c; /* Fundo vermelho */
+    padding: 10px 15px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas para suavizar o visual */
+    font-size: 14px; /* Tamanho de fonte adequado */
+    font-weight: bold; /* Deixa a mensagem mais forte */
+    margin-top: 10px; /* Adiciona um pequeno espaço acima */
+    width: 100%; /* Garante que a mensagem ocupe toda a largura disponível */
+    box-sizing: border-box; /* Para garantir que o padding seja incluído no tamanho total */
+    display: flex;
+    justify-content: center; /* Centraliza a mensagem */
+    text-align: center; /* Garante que o texto fique centralizado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil para destacar */
+    transition: all 0.3s ease-in-out; /* Suaviza a animação quando a mensagem aparecer/desaparecer */
+}
+
+.msgerror:hover {
+    background-color: #c0392b; /* Torna a cor um pouco mais escura no hover */
+}
