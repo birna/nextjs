@@ -11,7 +11,7 @@ export default function mouse() {
     let y = arrayY[0]
     const alterarY = arrayY[1]
 
-    function quandoMover(ev) {
+    function quandoMover(ev: any) {
         setX(ev.clientX)
         alterarY(ev.clientY)
         

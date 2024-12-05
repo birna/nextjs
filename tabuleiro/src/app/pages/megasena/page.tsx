@@ -4,7 +4,7 @@ import Error from "../../components/MsgError/MsgError";
 import styles from './MegaSena.module.css';
 import BolinhasMegaSena from '../../components/BolinhasMegaSena/BolinhasMegaSena';
 
-export default function Contador() {
+export default function megasena() {
     const [valor, setValor] = useState('');
     const [numeros, setNumeros] = useState<number[]>([]);
     const [msg, setMsg] = useState('');
@@ -14,7 +14,7 @@ export default function Contador() {
         inputRef.current?.focus();
     }, []);
 
-    const handleChange = (e) => {
+    const handleChange = (e: any) => {
         let value = e.target.value;
     
         if (value.length > 2) {
@@ -58,8 +58,6 @@ export default function Contador() {
         }
         inputRef.current?.focus()
     }
-
-
 
     return (
         <div className={styles.megasena}>
