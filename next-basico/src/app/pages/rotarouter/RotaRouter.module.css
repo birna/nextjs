@@ -1,0 +1,60 @@
+/* Estilo base do botão */
+.botoes {
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Estilo para hover e active dinâmico */
+.botoes:hover {
+    transform: translateY(-2px);
+}
+
+.botoes:active {
+    transform: translateY(0);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Cores dinâmicas */
+.verde {
+    background-color: #28a745; /* Verde */
+}
+
+.verde:hover {
+    background-color: #218838;
+}
+
+.verde:active {
+    background-color: #19692c;
+}
+
+.amarelo {
+    background-color: #f1c40f; /* Amarelo */
+}
+
+.amarelo:hover {
+    background-color: #d4ac0d;
+}
+
+.amarelo:active {
+    background-color: #a67d05;
+}
+
+.azul {
+    background-color: #3498db; /* Azul padrão */
+}
+
+.azul:hover {
+    background-color: #2179b8;
+}
+
+.azul:active {
+    background-color: #1a5e91;
+}
